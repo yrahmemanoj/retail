@@ -1,0 +1,890 @@
+{
+  "daily_analysis": {
+    "statistics": {
+      "total_days": 51,
+      "avg_daily_revenue": 694.634705882353,
+      "max_daily_revenue": 1599.97,
+      "min_daily_revenue": 209.97,
+      "avg_daily_transactions": 1.9607843137254901,
+      "avg_daily_customers": 1.9607843137254901,
+      "revenue_volatility": 381.0124368119914,
+      "best_day": {
+        "date": "2023-02-18",
+        "revenue": 1599.97,
+        "transactions": 2
+      },
+      "worst_day": {
+        "date": "2023-01-31",
+        "revenue": 209.97,
+        "transactions": 1
+      }
+    },
+    "chart_data": [
+      {
+        "date": "2023-01-15",
+        "revenue": 679.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-16",
+        "revenue": 1374.96,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-17",
+        "revenue": 389.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-18",
+        "revenue": 699.98,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-19",
+        "revenue": 249.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-20",
+        "revenue": 919.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-21",
+        "revenue": 209.98,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-22",
+        "revenue": 699.96,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-23",
+        "revenue": 349.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-24",
+        "revenue": 289.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-25",
+        "revenue": 1537.95,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-26",
+        "revenue": 419.95,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-27",
+        "revenue": 1099.98,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-28",
+        "revenue": 309.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-29",
+        "revenue": 399.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-30",
+        "revenue": 699.98,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-01-31",
+        "revenue": 209.97,
+        "transactions": 1,
+        "customers": 1
+      },
+      {
+        "date": "2023-02-01",
+        "revenue": 349.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-02",
+        "revenue": 1019.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-03",
+        "revenue": 284.96,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-04",
+        "revenue": 1399.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-05",
+        "revenue": 429.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-06",
+        "revenue": 654.96,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-07",
+        "revenue": 939.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-08",
+        "revenue": 289.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-09",
+        "revenue": 1129.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-10",
+        "revenue": 349.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-11",
+        "revenue": 819.96,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-12",
+        "revenue": 619.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-13",
+        "revenue": 1379.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-14",
+        "revenue": 569.96,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-15",
+        "revenue": 459.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-16",
+        "revenue": 999.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-17",
+        "revenue": 499.96,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-18",
+        "revenue": 1599.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-19",
+        "revenue": 524.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-20",
+        "revenue": 329.96,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-21",
+        "revenue": 934.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-22",
+        "revenue": 539.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-23",
+        "revenue": 999.98,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-24",
+        "revenue": 434.95,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-25",
+        "revenue": 399.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-26",
+        "revenue": 749.98,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-27",
+        "revenue": 799.95,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-02-28",
+        "revenue": 249.99,
+        "transactions": 1,
+        "customers": 1
+      },
+      {
+        "date": "2023-03-01",
+        "revenue": 1259.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-03-02",
+        "revenue": 569.96,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-03-03",
+        "revenue": 1079.98,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-03-04",
+        "revenue": 579.96,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-03-05",
+        "revenue": 439.97,
+        "transactions": 2,
+        "customers": 2
+      },
+      {
+        "date": "2023-03-06",
+        "revenue": 1189.96,
+        "transactions": 2,
+        "customers": 2
+      }
+    ]
+  },
+  "weekly_patterns": {
+    "day_of_week_data": [
+      {
+        "day": "Monday",
+        "revenue": 6779.71,
+        "transactions": 16,
+        "avg_transaction": 423.73
+      },
+      {
+        "day": "Tuesday",
+        "revenue": 3584.8,
+        "transactions": 12,
+        "avg_transaction": 298.73
+      },
+      {
+        "day": "Wednesday",
+        "revenue": 5137.78,
+        "transactions": 14,
+        "avg_transaction": 366.98
+      },
+      {
+        "day": "Thursday",
+        "revenue": 5389.77,
+        "transactions": 14,
+        "avg_transaction": 384.98
+      },
+      {
+        "day": "Friday",
+        "revenue": 4669.77,
+        "transactions": 14,
+        "avg_transaction": 333.56
+      },
+      {
+        "day": "Saturday",
+        "revenue": 5319.78,
+        "transactions": 14,
+        "avg_transaction": 379.98
+      },
+      {
+        "day": "Sunday",
+        "revenue": 4544.76,
+        "transactions": 16,
+        "avg_transaction": 284.05
+      }
+    ],
+    "weekly_data": [
+      {
+        "week": 2,
+        "revenue": 679.97,
+        "transactions": 2
+      },
+      {
+        "week": 3,
+        "revenue": 4544.79,
+        "transactions": 14
+      },
+      {
+        "week": 4,
+        "revenue": 4407.76,
+        "transactions": 14
+      },
+      {
+        "week": 5,
+        "revenue": 4394.79,
+        "transactions": 13
+      },
+      {
+        "week": 6,
+        "revenue": 4804.77,
+        "transactions": 14
+      },
+      {
+        "week": 7,
+        "revenue": 6034.77,
+        "transactions": 14
+      },
+      {
+        "week": 8,
+        "revenue": 4389.78,
+        "transactions": 14
+      },
+      {
+        "week": 9,
+        "revenue": 4979.78,
+        "transactions": 13
+      },
+      {
+        "week": 10,
+        "revenue": 1189.96,
+        "transactions": 2
+      }
+    ],
+    "statistics": {
+      "best_day_of_week": "Monday",
+      "worst_day_of_week": "Tuesday",
+      "weekend_vs_weekday": {
+        "weekend_avg": 332.015,
+        "weekday_avg": 361.596
+      }
+    }
+  },
+  "monthly_trends": {
+    "chart_data": [
+      {
+        "year": 2023,
+        "month": 1,
+        "month_name": "January 2023",
+        "revenue": 10542.47,
+        "transactions": 33,
+        "customers": 30
+      },
+      {
+        "year": 2023,
+        "month": 2,
+        "month_name": "February 2023",
+        "revenue": 19764.1,
+        "transactions": 55,
+        "customers": 50
+      },
+      {
+        "year": 2023,
+        "month": 3,
+        "month_name": "March 2023",
+        "revenue": 5119.8,
+        "transactions": 12,
+        "customers": 12
+      }
+    ],
+    "statistics": {
+      "total_months": 3,
+      "avg_monthly_revenue": 11808.79,
+      "revenue_growth_rate": 6.687895674019366,
+      "best_month": {
+        "year": 2023,
+        "month": 2,
+        "month_name": "February 2023",
+        "revenue": 19764.1,
+        "transactions": 55,
+        "customers": 50
+      },
+      "worst_month": {
+        "year": 2023,
+        "month": 3,
+        "month_name": "March 2023",
+        "revenue": 5119.8,
+        "transactions": 12,
+        "customers": 12
+      }
+    },
+    "growth_rates": [
+      87.47124725040716,
+      -74.09545590236843
+    ]
+  },
+  "seasonal_analysis": {
+    "chart_data": [
+      {
+        "season": "Spring",
+        "revenue": 5119.8,
+        "transactions": 12,
+        "avg_transaction": 426.65
+      },
+      {
+        "season": "Winter",
+        "revenue": 30306.57,
+        "transactions": 88,
+        "avg_transaction": 344.39
+      }
+    ],
+    "statistics": {
+      "best_season": "Winter",
+      "worst_season": "Spring",
+      "seasonal_variance": 158593345.75822502
+    }
+  },
+  "trend_analysis": {
+    "chart_data": [
+      {
+        "date": "2023-01-15",
+        "actual": 679.97,
+        "ma_7": 679.97,
+        "ma_30": 679.97,
+        "trend": 624.6352714932129
+      },
+      {
+        "date": "2023-01-16",
+        "actual": 1374.96,
+        "ma_7": 1027.4650000000001,
+        "ma_30": 1027.4650000000001,
+        "trend": 627.4352488687786
+      },
+      {
+        "date": "2023-01-17",
+        "actual": 389.97,
+        "ma_7": 814.9666666666667,
+        "ma_30": 814.9666666666667,
+        "trend": 630.2352262443442
+      },
+      {
+        "date": "2023-01-18",
+        "actual": 699.98,
+        "ma_7": 786.22,
+        "ma_30": 786.22,
+        "trend": 633.0352036199097
+      },
+      {
+        "date": "2023-01-19",
+        "actual": 249.97000000000003,
+        "ma_7": 678.97,
+        "ma_30": 678.97,
+        "trend": 635.8351809954753
+      },
+      {
+        "date": "2023-01-20",
+        "actual": 919.97,
+        "ma_7": 719.1366666666667,
+        "ma_30": 719.1366666666667,
+        "trend": 638.6351583710409
+      },
+      {
+        "date": "2023-01-21",
+        "actual": 209.98000000000002,
+        "ma_7": 646.4,
+        "ma_30": 646.4,
+        "trend": 641.4351357466065
+      },
+      {
+        "date": "2023-01-22",
+        "actual": 699.96,
+        "ma_7": 649.2557142857142,
+        "ma_30": 653.095,
+        "trend": 644.2351131221722
+      },
+      {
+        "date": "2023-01-23",
+        "actual": 349.97,
+        "ma_7": 502.8285714285715,
+        "ma_30": 619.4144444444445,
+        "trend": 647.0350904977377
+      },
+      {
+        "date": "2023-01-24",
+        "actual": 289.97,
+        "ma_7": 488.54285714285714,
+        "ma_30": 586.47,
+        "trend": 649.8350678733033
+      },
+      {
+        "date": "2023-01-25",
+        "actual": 1537.95,
+        "ma_7": 608.2528571428572,
+        "ma_30": 672.9681818181818,
+        "trend": 652.6350452488689
+      },
+      {
+        "date": "2023-01-26",
+        "actual": 419.95,
+        "ma_7": 632.5357142857143,
+        "ma_30": 651.8833333333333,
+        "trend": 655.4350226244345
+      },
+      {
+        "date": "2023-01-27",
+        "actual": 1099.98,
+        "ma_7": 658.2514285714286,
+        "ma_30": 686.3523076923077,
+        "trend": 658.2350000000001
+      },
+      {
+        "date": "2023-01-28",
+        "actual": 309.97,
+        "ma_7": 672.5357142857144,
+        "ma_30": 659.4678571428573,
+        "trend": 661.0349773755656
+      },
+      {
+        "date": "2023-01-29",
+        "actual": 399.97,
+        "ma_7": 629.6800000000001,
+        "ma_30": 642.168,
+        "trend": 663.8349547511312
+      },
+      {
+        "date": "2023-01-30",
+        "actual": 699.98,
+        "ma_7": 679.6814285714287,
+        "ma_30": 645.78125,
+        "trend": 666.6349321266969
+      },
+      {
+        "date": "2023-01-31",
+        "actual": 209.97,
+        "ma_7": 668.2528571428572,
+        "ma_30": 620.1452941176472,
+        "trend": 669.4349095022625
+      },
+      {
+        "date": "2023-02-01",
+        "actual": 349.97,
+        "ma_7": 498.5414285714286,
+        "ma_30": 605.1355555555556,
+        "trend": 672.2348868778281
+      },
+      {
+        "date": "2023-02-02",
+        "actual": 1019.97,
+        "ma_7": 584.2585714285715,
+        "ma_30": 626.968947368421,
+        "trend": 675.0348642533937
+      },
+      {
+        "date": "2023-02-03",
+        "actual": 284.96000000000004,
+        "ma_7": 467.82714285714286,
+        "ma_30": 609.8685,
+        "trend": 677.8348416289592
+      },
+      {
+        "date": "2023-02-04",
+        "actual": 1399.97,
+        "ma_7": 623.5414285714286,
+        "ma_30": 647.4923809523809,
+        "trend": 680.6348190045248
+      },
+      {
+        "date": "2023-02-05",
+        "actual": 429.97,
+        "ma_7": 627.8271428571428,
+        "ma_30": 637.605,
+        "trend": 683.4347963800905
+      },
+      {
+        "date": "2023-02-06",
+        "actual": 654.96,
+        "ma_7": 621.3957142857143,
+        "ma_30": 638.3595652173914,
+        "trend": 686.2347737556561
+      },
+      {
+        "date": "2023-02-07",
+        "actual": 939.97,
+        "ma_7": 725.6814285714287,
+        "ma_30": 650.9266666666667,
+        "trend": 689.0347511312217
+      },
+      {
+        "date": "2023-02-08",
+        "actual": 289.97,
+        "ma_7": 717.11,
+        "ma_30": 636.4884000000001,
+        "trend": 691.8347285067872
+      },
+      {
+        "date": "2023-02-09",
+        "actual": 1129.97,
+        "ma_7": 732.8242857142858,
+        "ma_30": 655.4684615384615,
+        "trend": 694.6347058823528
+      },
+      {
+        "date": "2023-02-10",
+        "actual": 349.97,
+        "ma_7": 742.1114285714286,
+        "ma_30": 644.1537037037037,
+        "trend": 697.4346832579184
+      },
+      {
+        "date": "2023-02-11",
+        "actual": 819.96,
+        "ma_7": 659.2528571428572,
+        "ma_30": 650.4325,
+        "trend": 700.234660633484
+      },
+      {
+        "date": "2023-02-12",
+        "actual": 619.97,
+        "ma_7": 686.3957142857143,
+        "ma_30": 649.3820689655173,
+        "trend": 703.0346380090497
+      },
+      {
+        "date": "2023-02-13",
+        "actual": 1379.97,
+        "ma_7": 789.9685714285714,
+        "ma_30": 673.735,
+        "trend": 705.8346153846153
+      },
+      {
+        "date": "2023-02-14",
+        "actual": 569.96,
+        "ma_7": 737.1099999999999,
+        "ma_30": 670.068,
+        "trend": 708.6345927601808
+      },
+      {
+        "date": "2023-02-15",
+        "actual": 459.97,
+        "ma_7": 761.3957142857143,
+        "ma_30": 639.5683333333333,
+        "trend": 711.4345701357464
+      },
+      {
+        "date": "2023-02-16",
+        "actual": 999.97,
+        "ma_7": 742.8242857142858,
+        "ma_30": 659.9016666666666,
+        "trend": 714.234547511312
+      },
+      {
+        "date": "2023-02-17",
+        "actual": 499.96000000000004,
+        "ma_7": 764.2514285714286,
+        "ma_30": 653.2343333333333,
+        "trend": 717.0345248868776
+      },
+      {
+        "date": "2023-02-18",
+        "actual": 1599.97,
+        "ma_7": 875.6814285714287,
+        "ma_30": 698.2343333333334,
+        "trend": 719.8345022624433
+      },
+      {
+        "date": "2023-02-19",
+        "actual": 524.97,
+        "ma_7": 862.11,
+        "ma_30": 685.0676666666667,
+        "trend": 722.6344796380088
+      },
+      {
+        "date": "2023-02-20",
+        "actual": 329.96,
+        "ma_7": 712.1085714285715,
+        "ma_30": 689.0670000000001,
+        "trend": 725.4344570135744
+      },
+      {
+        "date": "2023-02-21",
+        "actual": 934.97,
+        "ma_7": 764.2528571428572,
+        "ma_30": 696.9006666666668,
+        "trend": 728.23443438914
+      },
+      {
+        "date": "2023-02-22",
+        "actual": 539.97,
+        "ma_7": 775.6814285714287,
+        "ma_30": 703.234,
+        "trend": 731.0344117647056
+      },
+      {
+        "date": "2023-02-23",
+        "actual": 999.98,
+        "ma_7": 775.6828571428571,
+        "ma_30": 726.901,
+        "trend": 733.8343891402712
+      },
+      {
+        "date": "2023-02-24",
+        "actual": 434.95000000000005,
+        "ma_7": 766.3957142857143,
+        "ma_30": 690.1343333333333,
+        "trend": 736.6343665158367
+      },
+      {
+        "date": "2023-02-25",
+        "actual": 399.97,
+        "ma_7": 594.9671428571429,
+        "ma_30": 689.4683333333335,
+        "trend": 739.4343438914024
+      },
+      {
+        "date": "2023-02-26",
+        "actual": 749.98,
+        "ma_7": 627.1114285714285,
+        "ma_30": 677.8016666666666,
+        "trend": 742.234321266968
+      },
+      {
+        "date": "2023-02-27",
+        "actual": 799.95,
+        "ma_7": 694.2528571428572,
+        "ma_30": 694.1343333333334,
+        "trend": 745.0342986425336
+      },
+      {
+        "date": "2023-02-28",
+        "actual": 249.99,
+        "ma_7": 596.3985714285715,
+        "ma_30": 689.135,
+        "trend": 747.8342760180992
+      },
+      {
+        "date": "2023-03-01",
+        "actual": 1259.97,
+        "ma_7": 699.2557142857142,
+        "ma_30": 707.8013333333333,
+        "trend": 750.6342533936647
+      },
+      {
+        "date": "2023-03-02",
+        "actual": 569.96,
+        "ma_7": 637.8242857142858,
+        "ma_30": 719.8009999999999,
+        "trend": 753.4342307692303
+      },
+      {
+        "date": "2023-03-03",
+        "actual": 1079.98,
+        "ma_7": 729.9714285714286,
+        "ma_30": 744.1346666666667,
+        "trend": 756.234208144796
+      },
+      {
+        "date": "2023-03-04",
+        "actual": 579.96,
+        "ma_7": 755.6842857142857,
+        "ma_30": 729.4676666666668,
+        "trend": 759.0341855203616
+      },
+      {
+        "date": "2023-03-05",
+        "actual": 439.97,
+        "ma_7": 711.397142857143,
+        "ma_30": 734.6346666666667,
+        "trend": 761.8341628959272
+      },
+      {
+        "date": "2023-03-06",
+        "actual": 1189.96,
+        "ma_7": 767.1128571428571,
+        "ma_30": 727.6343333333334,
+        "trend": 764.6341402714927
+      }
+    ],
+    "statistics": {
+      "trend_slope": 2.799977375565596,
+      "trend_direction": "Increasing",
+      "trend_strength": 2.799977375565596,
+      "r_squared": 0.011935016236452397
+    }
+  },
+  "time_insights": [
+    {
+      "category": "Revenue Stability",
+      "insight": "Daily revenue shows high volatility (CV: 54.9%)",
+      "recommendation": "Implement strategies to stabilize daily sales through promotions and inventory management"
+    },
+    {
+      "category": "Weekly Patterns",
+      "insight": "Monday is the best performing day of the week",
+      "recommendation": "Schedule major promotions and new product launches on Mondays"
+    },
+    {
+      "category": "Seasonality",
+      "insight": "Winter shows the highest sales performance",
+      "recommendation": "Increase inventory and marketing budget during Winter season"
+    }
+  ]
+}

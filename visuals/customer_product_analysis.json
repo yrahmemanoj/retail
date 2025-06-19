@@ -1,0 +1,330 @@
+{
+  "customer_behavior": {
+    "statistics": {
+      "total_customers": 50,
+      "avg_customer_value": 708.5274000000001,
+      "avg_transactions_per_customer": 2.0,
+      "avg_customer_lifetime": 24.14,
+      "customer_retention_rate": 94.0,
+      "avg_categories_per_customer": 1.7
+    },
+    "clv_segments": {
+      "High Value": {
+        "customer_count": 17,
+        "percentage": 34.0,
+        "avg_total_spent": 1263.4964705882355,
+        "avg_transaction_count": 2.1176470588235294,
+        "total_revenue_contribution": 21479.440000000002
+      },
+      "Low Value": {
+        "customer_count": 18,
+        "percentage": 36.0,
+        "avg_total_spent": 314.02444444444444,
+        "avg_transaction_count": 1.9444444444444444,
+        "total_revenue_contribution": 5652.44
+      },
+      "Medium Value": {
+        "customer_count": 15,
+        "percentage": 30.0,
+        "avg_total_spent": 552.966,
+        "avg_transaction_count": 1.9333333333333333,
+        "total_revenue_contribution": 8294.49
+      }
+    },
+    "top_customers": [
+      {
+        "customer_id": "CUST003",
+        "total_spent": 1959.96,
+        "transaction_count": 3,
+        "avg_transaction": 653.32
+      },
+      {
+        "customer_id": "CUST018",
+        "total_spent": 1859.96,
+        "transaction_count": 2,
+        "avg_transaction": 929.98
+      },
+      {
+        "customer_id": "CUST033",
+        "total_spent": 1499.95,
+        "transaction_count": 2,
+        "avg_transaction": 749.98
+      },
+      {
+        "customer_id": "CUST038",
+        "total_spent": 1429.98,
+        "transaction_count": 2,
+        "avg_transaction": 714.99
+      },
+      {
+        "customer_id": "CUST006",
+        "total_spent": 1399.97,
+        "transaction_count": 2,
+        "avg_transaction": 699.98
+      },
+      {
+        "customer_id": "CUST001",
+        "total_spent": 1389.96,
+        "transaction_count": 3,
+        "avg_transaction": 463.32
+      },
+      {
+        "customer_id": "CUST016",
+        "total_spent": 1339.97,
+        "transaction_count": 2,
+        "avg_transaction": 669.98
+      },
+      {
+        "customer_id": "CUST036",
+        "total_spent": 1304.95,
+        "transaction_count": 2,
+        "avg_transaction": 652.48
+      },
+      {
+        "customer_id": "CUST043",
+        "total_spent": 1299.97,
+        "transaction_count": 2,
+        "avg_transaction": 649.98
+      },
+      {
+        "customer_id": "CUST046",
+        "total_spent": 1189.97,
+        "transaction_count": 2,
+        "avg_transaction": 594.98
+      }
+    ]
+  },
+  "product_performance": {
+    "chart_data": [
+      {
+        "category": "Beauty",
+        "revenue": 1459.61,
+        "transactions": 20,
+        "customers": 20,
+        "avg_price": 40.24,
+        "market_share": 4.12,
+        "avg_transaction": 72.98
+      },
+      {
+        "category": "Clothing",
+        "revenue": 3187.66,
+        "transactions": 20,
+        "customers": 13,
+        "avg_price": 99.79,
+        "market_share": 9.0,
+        "avg_transaction": 159.38
+      },
+      {
+        "category": "Electronics",
+        "revenue": 19799.71,
+        "transactions": 22,
+        "customers": 21,
+        "avg_price": 740.9,
+        "market_share": 55.89,
+        "avg_transaction": 899.99
+      },
+      {
+        "category": "Home & Garden",
+        "revenue": 4149.73,
+        "transactions": 19,
+        "customers": 12,
+        "avg_price": 174.73,
+        "market_share": 11.71,
+        "avg_transaction": 218.41
+      },
+      {
+        "category": "Sports",
+        "revenue": 6829.66,
+        "transactions": 19,
+        "customers": 19,
+        "avg_price": 216.31,
+        "market_share": 19.28,
+        "avg_transaction": 359.46
+      }
+    ],
+    "statistics": {
+      "total_categories": 5,
+      "best_performing_category": "Electronics",
+      "highest_avg_transaction": "Electronics",
+      "most_popular_category": "Electronics",
+      "premium_category": "Electronics",
+      "revenue_concentration": 55.89
+    }
+  },
+  "customer_product_matrix": {
+    "cross_selling_opportunities": {
+      "Beauty \u2192 Sports": {
+        "customers_bought_both": 10,
+        "cross_sell_rate": 50.0,
+        "base_category_customers": 20
+      },
+      "Beauty \u2192 Electronics": {
+        "customers_bought_both": 9,
+        "cross_sell_rate": 45.0,
+        "base_category_customers": 20
+      },
+      "Electronics \u2192 Sports": {
+        "customers_bought_both": 8,
+        "cross_sell_rate": 38.095238095238095,
+        "base_category_customers": 21
+      },
+      "Home & Garden \u2192 Sports": {
+        "customers_bought_both": 2,
+        "cross_sell_rate": 16.666666666666664,
+        "base_category_customers": 12
+      },
+      "Clothing \u2192 Electronics": {
+        "customers_bought_both": 2,
+        "cross_sell_rate": 15.384615384615385,
+        "base_category_customers": 13
+      }
+    },
+    "customer_diversity": {
+      "avg_categories_per_customer": 1.7,
+      "max_categories_per_customer": 3,
+      "customers_single_category": 17,
+      "customers_multi_category": 33,
+      "multi_category_rate": 66.0
+    }
+  },
+  "demographics": {
+    "gender": [
+      {
+        "gender": "Female",
+        "total_spent": 15597.19,
+        "avg_transaction": 311.94,
+        "customers": 25,
+        "top_category": "Beauty"
+      },
+      {
+        "gender": "Male",
+        "total_spent": 19829.18,
+        "avg_transaction": 396.58,
+        "customers": 25,
+        "top_category": "Electronics"
+      }
+    ],
+    "age_groups": [
+      {
+        "age_group": "18-25",
+        "total_spent": 429.98,
+        "avg_transaction": 214.99,
+        "customers": 1
+      },
+      {
+        "age_group": "26-35",
+        "total_spent": 17147.08,
+        "avg_transaction": 329.75,
+        "customers": 26
+      },
+      {
+        "age_group": "36-45",
+        "total_spent": 15689.44,
+        "avg_transaction": 412.88,
+        "customers": 19
+      },
+      {
+        "age_group": "46-55",
+        "total_spent": 2159.87,
+        "avg_transaction": 269.98,
+        "customers": 4
+      },
+      {
+        "age_group": "55+",
+        "total_spent": 0.0,
+        "avg_transaction": NaN,
+        "customers": 0
+      }
+    ],
+    "product_preferences": {
+      "Female": {
+        "('Total_Amount', 'Beauty')": 5.7,
+        "('Total_Amount', 'Clothing')": 8.83,
+        "('Total_Amount', 'Electronics')": 48.73,
+        "('Total_Amount', 'Home & Garden')": 14.04,
+        "('Total_Amount', 'Sports')": 22.7
+      },
+      "Male": {
+        "('Total_Amount', 'Beauty')": 2.87,
+        "('Total_Amount', 'Clothing')": 9.13,
+        "('Total_Amount', 'Electronics')": 61.52,
+        "('Total_Amount', 'Home & Garden')": 9.88,
+        "('Total_Amount', 'Sports')": 16.59
+      }
+    }
+  },
+  "purchase_patterns": {
+    "purchase_intervals": {
+      "avg_days_between_purchases": 24.14,
+      "median_days_between_purchases": 25.0,
+      "min_days_between_purchases": 2,
+      "max_days_between_purchases": 27
+    },
+    "quantity_distribution": [
+      {
+        "quantity": 1,
+        "transactions": 53,
+        "percentage": 53.0
+      },
+      {
+        "quantity": 2,
+        "transactions": 32,
+        "percentage": 32.0
+      },
+      {
+        "quantity": 3,
+        "transactions": 14,
+        "percentage": 14.000000000000002
+      },
+      {
+        "quantity": 4,
+        "transactions": 1,
+        "percentage": 1.0
+      }
+    ],
+    "price_preferences": [
+      {
+        "price_category": "Mid-range",
+        "transactions": 39,
+        "percentage": 39.0
+      },
+      {
+        "price_category": "Economy",
+        "transactions": 20,
+        "percentage": 20.0
+      },
+      {
+        "price_category": "Premium",
+        "transactions": 19,
+        "percentage": 19.0
+      },
+      {
+        "price_category": "Budget",
+        "transactions": 18,
+        "percentage": 18.0
+      },
+      {
+        "price_category": "Luxury",
+        "transactions": 4,
+        "percentage": 4.0
+      }
+    ]
+  },
+  "cp_insights": [
+    {
+      "category": "Customer Segmentation",
+      "insight": "High-value customers represent 34.0% of customer base",
+      "recommendation": "Focus on retaining and expanding high-value customer relationships"
+    },
+    {
+      "category": "Product Portfolio",
+      "insight": "Electronics dominates with 55.9% market share",
+      "recommendation": "Diversify product portfolio to reduce dependency on single category"
+    },
+    {
+      "category": "Cross-selling",
+      "insight": "Best cross-selling opportunity: Beauty \u2192 Sports (50.0% rate)",
+      "recommendation": "Develop targeted cross-selling campaigns for identified product pairs"
+    }
+  ]
+}

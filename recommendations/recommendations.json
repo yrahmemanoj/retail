@@ -1,0 +1,134 @@
+{
+  "recommendations": [
+    {
+      "category": "strategic",
+      "title": "Revenue Stabilization Program",
+      "description": "Daily revenue shows high volatility (CV: 54.9%)",
+      "recommendation": "Implement demand forecasting and dynamic pricing strategies",
+      "impact": "High",
+      "timeline": "3-6 months",
+      "priority": 90,
+      "category_type": "strategic"
+    },
+    {
+      "category": "marketing",
+      "title": "Seasonal Campaign Optimization",
+      "description": "Large seasonal revenue gap: 83.1% between Winter and Spring",
+      "recommendation": "Develop targeted promotions for Spring and maximize Winter performance",
+      "impact": "Medium",
+      "timeline": "1-2 months",
+      "priority": 75,
+      "category_type": "strategic"
+    },
+    {
+      "category": "marketing",
+      "title": "Cross-Selling Campaign",
+      "description": "Best cross-selling opportunity: Beauty \u2192 Sports (50.0% success rate)",
+      "recommendation": "Create bundled product offerings and targeted email campaigns",
+      "impact": "Medium",
+      "timeline": "1-2 months",
+      "priority": 70,
+      "category_type": "customer_experience"
+    },
+    {
+      "category": "marketing",
+      "title": "Female Market Expansion",
+      "description": "21.3% revenue gap between genders",
+      "recommendation": "Develop targeted marketing campaigns and product lines for Female customers",
+      "impact": "Medium",
+      "timeline": "3-4 months",
+      "priority": 65,
+      "category_type": "marketing"
+    },
+    {
+      "category": "strategic",
+      "title": "Product Portfolio Diversification",
+      "description": "Electronics dominates with 55.9% market share",
+      "recommendation": "Invest in expanding underperforming categories and reduce dependency risk",
+      "impact": "Medium",
+      "timeline": "6-12 months",
+      "priority": 65,
+      "category_type": "inventory"
+    },
+    {
+      "category": "marketing",
+      "title": "26-35 Segment Focus",
+      "description": "26-35 age group shows highest spending",
+      "recommendation": "Develop age-specific marketing strategies and product recommendations",
+      "impact": "Medium",
+      "timeline": "2-3 months",
+      "priority": 60,
+      "category_type": "marketing"
+    },
+    {
+      "category": "inventory",
+      "title": "Beauty Category Optimization",
+      "description": "Beauty significantly underperforms (50% below average)",
+      "recommendation": "Conduct market research and consider category refresh or discontinuation",
+      "impact": "Medium",
+      "timeline": "2-3 months",
+      "priority": 60,
+      "category_type": "inventory"
+    }
+  ],
+  "action_plan": {
+    "immediate_actions": [
+      {
+        "title": "Seasonal Campaign Optimization",
+        "description": "Develop targeted promotions for Spring and maximize Winter performance",
+        "impact": "Medium",
+        "category": "strategic"
+      },
+      {
+        "title": "Cross-Selling Campaign",
+        "description": "Create bundled product offerings and targeted email campaigns",
+        "impact": "Medium",
+        "category": "customer_experience"
+      },
+      {
+        "title": "Product Portfolio Diversification",
+        "description": "Invest in expanding underperforming categories and reduce dependency risk",
+        "impact": "Medium",
+        "category": "inventory"
+      }
+    ],
+    "short_term_goals": [
+      {
+        "title": "Revenue Stabilization Program",
+        "description": "Implement demand forecasting and dynamic pricing strategies",
+        "impact": "High",
+        "category": "strategic"
+      },
+      {
+        "title": "Female Market Expansion",
+        "description": "Develop targeted marketing campaigns and product lines for Female customers",
+        "impact": "Medium",
+        "category": "marketing"
+      },
+      {
+        "title": "26-35 Segment Focus",
+        "description": "Develop age-specific marketing strategies and product recommendations",
+        "impact": "Medium",
+        "category": "marketing"
+      },
+      {
+        "title": "Beauty Category Optimization",
+        "description": "Conduct market research and consider category refresh or discontinuation",
+        "impact": "Medium",
+        "category": "inventory"
+      }
+    ],
+    "long_term_strategy": []
+  },
+  "summary": {
+    "total_recommendations": 7,
+    "high_impact_count": 1,
+    "critical_count": 0,
+    "categories_covered": [
+      "strategic",
+      "inventory",
+      "marketing",
+      "customer_experience"
+    ]
+  }
+}

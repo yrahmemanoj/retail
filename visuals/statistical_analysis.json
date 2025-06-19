@@ -1,0 +1,265 @@
+{
+  "descriptive": {
+    "Age": {
+      "count": 100,
+      "mean": 35.66,
+      "median": 35.0,
+      "mode": 29.0,
+      "std": 6.673057542813261,
+      "variance": 44.52969696969696,
+      "min": 25.0,
+      "max": 52.0,
+      "q1": 30.0,
+      "q3": 41.0,
+      "iqr": 11.0,
+      "skewness": 0.3959337324822238,
+      "kurtosis": -0.7370827548271648
+    },
+    "Quantity": {
+      "count": 100,
+      "mean": 1.63,
+      "median": 1.0,
+      "mode": 1.0,
+      "std": 0.7608474807008885,
+      "variance": 0.5788888888888889,
+      "min": 1.0,
+      "max": 4.0,
+      "q1": 1.0,
+      "q3": 2.0,
+      "iqr": 1.0,
+      "skewness": 0.8817589722220771,
+      "kurtosis": -0.21665402382939725
+    },
+    "Price_per_Unit": {
+      "count": 100,
+      "mean": 265.3,
+      "median": 154.99,
+      "mode": 199.99,
+      "std": 294.7418214524897,
+      "variance": 86872.74131313132,
+      "min": 19.99,
+      "max": 1299.99,
+      "q1": 79.99,
+      "q3": 299.99,
+      "iqr": 220.0,
+      "skewness": 1.8591562246844462,
+      "kurtosis": 2.9120828532623864
+    },
+    "Total_Amount": {
+      "count": 100,
+      "mean": 354.2637,
+      "median": 224.97,
+      "mode": 199.99,
+      "std": 337.2616979653257,
+      "variance": 113745.45291445457,
+      "min": 29.99,
+      "max": 1399.98,
+      "q1": 119.9875,
+      "q3": 499.98,
+      "iqr": 379.9925,
+      "skewness": 1.4678237664127733,
+      "kurtosis": 1.285250608577798
+    }
+  },
+  "correlation": {
+    "Age": {
+      "Age": 1.0,
+      "Quantity": -0.052880713369785774,
+      "Price_per_Unit": -0.010941366282791494,
+      "Total_Amount": 0.006295993549142032
+    },
+    "Quantity": {
+      "Age": -0.052880713369785774,
+      "Quantity": 1.0,
+      "Price_per_Unit": -0.3521234853999626,
+      "Total_Amount": -0.07417032725432796
+    },
+    "Price_per_Unit": {
+      "Age": -0.010941366282791494,
+      "Quantity": -0.3521234853999626,
+      "Price_per_Unit": 1.0,
+      "Total_Amount": 0.8999773059026824
+    },
+    "Total_Amount": {
+      "Age": 0.006295993549142032,
+      "Quantity": -0.07417032725432796,
+      "Price_per_Unit": 0.8999773059026824,
+      "Total_Amount": 1.0
+    }
+  },
+  "hypothesis_tests": {
+    "gender_spending_difference": {
+      "test": "Independent t-test",
+      "null_hypothesis": "No difference in spending between genders",
+      "t_statistic": 1.258503501733251,
+      "p_value": 0.2111996546390312,
+      "significant": false,
+      "male_mean": 396.5836000000001,
+      "female_mean": 311.94379999999995
+    },
+    "age_spending_correlation": {
+      "test": "Pearson correlation",
+      "null_hypothesis": "No correlation between age and spending",
+      "correlation_coefficient": 0.006295993549141966,
+      "p_value": 0.9504282647311072,
+      "significant": false
+    },
+    "category_spending_anova": {
+      "test": "One-way ANOVA",
+      "null_hypothesis": "No difference in spending across product categories",
+      "f_statistic": 108.92870462501197,
+      "p_value": 1.2971626644212136e-34,
+      "significant": true,
+      "categories_tested": [
+        "Electronics",
+        "Clothing",
+        "Beauty",
+        "Sports",
+        "Home & Garden"
+      ]
+    }
+  },
+  "outliers": {
+    "Age": {
+      "iqr_method": {
+        "lower_bound": 13.5,
+        "upper_bound": 57.5,
+        "outlier_count": 0,
+        "outlier_percentage": 0.0
+      },
+      "zscore_method": {
+        "outlier_count": 0,
+        "outlier_percentage": 0.0
+      }
+    },
+    "Quantity": {
+      "iqr_method": {
+        "lower_bound": -0.5,
+        "upper_bound": 3.5,
+        "outlier_count": 1,
+        "outlier_percentage": 1.0
+      },
+      "zscore_method": {
+        "outlier_count": 1,
+        "outlier_percentage": 1.0
+      }
+    },
+    "Price_per_Unit": {
+      "iqr_method": {
+        "lower_bound": -250.01,
+        "upper_bound": 629.99,
+        "outlier_count": 13,
+        "outlier_percentage": 13.0
+      },
+      "zscore_method": {
+        "outlier_count": 2,
+        "outlier_percentage": 2.0
+      }
+    },
+    "Total_Amount": {
+      "iqr_method": {
+        "lower_bound": -450.00124999999997,
+        "upper_bound": 1069.96875,
+        "outlier_count": 7,
+        "outlier_percentage": 7.000000000000001
+      },
+      "zscore_method": {
+        "outlier_count": 1,
+        "outlier_percentage": 1.0
+      }
+    }
+  },
+  "categorical": {
+    "Gender": {
+      "unique_values": 2,
+      "value_counts": {
+        "Male": 50,
+        "Female": 50
+      },
+      "proportions": {
+        "Male": 0.5,
+        "Female": 0.5
+      },
+      "mode": "Male",
+      "entropy": 0.9999999997114609
+    },
+    "Product_Category": {
+      "unique_values": 5,
+      "value_counts": {
+        "Electronics": 22,
+        "Clothing": 20,
+        "Beauty": 20,
+        "Sports": 19,
+        "Home & Garden": 19
+      },
+      "proportions": {
+        "Electronics": 0.22,
+        "Clothing": 0.2,
+        "Beauty": 0.2,
+        "Sports": 0.19,
+        "Home & Garden": 0.19
+      },
+      "mode": "Electronics",
+      "entropy": 2.3197975398896644
+    },
+    "Age_Group": {
+      "unique_values": 4,
+      "value_counts": {
+        "26-35": 52,
+        "36-45": 38,
+        "46-55": 8,
+        "18-25": 2,
+        "55+": 0
+      },
+      "proportions": {
+        "26-35": 0.52,
+        "36-45": 0.38,
+        "46-55": 0.08,
+        "18-25": 0.02,
+        "55+": 0.0
+      },
+      "mode": "26-35",
+      "entropy": 1.4254150806557162
+    }
+  },
+  "customer_segments": {
+    "High Value": {
+      "customer_count": 17,
+      "avg_total_spent": 1263.4964705882355,
+      "avg_transaction_value": 598.904705882353,
+      "avg_transaction_count": 2.1176470588235294,
+      "total_revenue": 21479.440000000002
+    },
+    "Low Value": {
+      "customer_count": 18,
+      "avg_total_spent": 314.02444444444444,
+      "avg_transaction_value": 163.21500000000003,
+      "avg_transaction_count": 1.9444444444444444,
+      "total_revenue": 5652.44
+    },
+    "Medium Value": {
+      "customer_count": 15,
+      "avg_total_spent": 552.966,
+      "avg_transaction_value": 303.14933333333335,
+      "avg_transaction_count": 1.9333333333333333,
+      "total_revenue": 8294.49
+    }
+  },
+  "business_insights": [
+    {
+      "category": "Revenue",
+      "insight": "Average transaction value is $354.26 with high variability (std: $337.26)",
+      "recommendation": "Focus on increasing transaction consistency and targeting high-value customers"
+    },
+    {
+      "category": "Products",
+      "insight": "Electronics is the most popular product category",
+      "recommendation": "Invest in expanding Electronics product lines and inventory"
+    },
+    {
+      "category": "Customer Loyalty",
+      "insight": "High-value customers represent 34.0% of customer base but drive significant revenue",
+      "recommendation": "Implement VIP loyalty programs to retain high-value customers"
+    }
+  ]
+}

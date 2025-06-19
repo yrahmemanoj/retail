@@ -1,0 +1,483 @@
+{
+  "timestamp": "2025-06-19T21:16:51.901657",
+  "charts": {
+    "daily_revenue": {
+      "type": "line",
+      "title": "Daily Revenue Trend",
+      "data": {
+        "labels": [
+          "2023-01-15",
+          "2023-01-16",
+          "2023-01-17",
+          "2023-01-18",
+          "2023-01-19",
+          "2023-01-20",
+          "2023-01-21",
+          "2023-01-22",
+          "2023-01-23",
+          "2023-01-24",
+          "2023-01-25",
+          "2023-01-26",
+          "2023-01-27",
+          "2023-01-28",
+          "2023-01-29",
+          "2023-01-30",
+          "2023-01-31",
+          "2023-02-01",
+          "2023-02-02",
+          "2023-02-03",
+          "2023-02-04",
+          "2023-02-05",
+          "2023-02-06",
+          "2023-02-07",
+          "2023-02-08",
+          "2023-02-09",
+          "2023-02-10",
+          "2023-02-11",
+          "2023-02-12",
+          "2023-02-13",
+          "2023-02-14",
+          "2023-02-15",
+          "2023-02-16",
+          "2023-02-17",
+          "2023-02-18",
+          "2023-02-19",
+          "2023-02-20",
+          "2023-02-21",
+          "2023-02-22",
+          "2023-02-23",
+          "2023-02-24",
+          "2023-02-25",
+          "2023-02-26",
+          "2023-02-27",
+          "2023-02-28",
+          "2023-03-01",
+          "2023-03-02",
+          "2023-03-03",
+          "2023-03-04",
+          "2023-03-05",
+          "2023-03-06"
+        ],
+        "datasets": [
+          {
+            "label": "Daily Revenue",
+            "data": [
+              679.97,
+              1374.96,
+              389.97,
+              699.98,
+              249.97,
+              919.97,
+              209.98,
+              699.96,
+              349.97,
+              289.97,
+              1537.95,
+              419.95,
+              1099.98,
+              309.97,
+              399.97,
+              699.98,
+              209.97,
+              349.97,
+              1019.97,
+              284.96,
+              1399.97,
+              429.97,
+              654.96,
+              939.97,
+              289.97,
+              1129.97,
+              349.97,
+              819.96,
+              619.97,
+              1379.97,
+              569.96,
+              459.97,
+              999.97,
+              499.96,
+              1599.97,
+              524.97,
+              329.96,
+              934.97,
+              539.97,
+              999.98,
+              434.95,
+              399.97,
+              749.98,
+              799.95,
+              249.99,
+              1259.97,
+              569.96,
+              1079.98,
+              579.96,
+              439.97,
+              1189.96
+            ],
+            "borderColor": "#2563eb",
+            "backgroundColor": "rgba(37, 99, 235, 0.1)",
+            "tension": 0.4,
+            "fill": true
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "scales": {
+          "y": {
+            "beginAtZero": true,
+            "ticks": {
+              "callback": "function(value) { return \"$\" + value.toLocaleString(); }"
+            }
+          }
+        }
+      }
+    },
+    "monthly_revenue": {
+      "type": "bar",
+      "title": "Monthly Revenue Trend",
+      "data": {
+        "labels": [
+          "January 2023",
+          "February 2023",
+          "March 2023"
+        ],
+        "datasets": [
+          {
+            "label": "Monthly Revenue",
+            "data": [
+              10542.47,
+              19764.1,
+              5119.8
+            ],
+            "backgroundColor": "rgba(37, 99, 235, 0.8)",
+            "borderColor": "#2563eb",
+            "borderWidth": 1
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "plugins": {
+          "legend": {
+            "display": true
+          }
+        }
+      }
+    },
+    "weekly_patterns": {
+      "type": "radar",
+      "title": "Weekly Sales Pattern",
+      "data": {
+        "labels": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "datasets": [
+          {
+            "label": "Average Daily Revenue",
+            "data": [
+              423.731875,
+              298.73333333333335,
+              366.9842857142857,
+              384.98357142857145,
+              333.555,
+              379.9842857142857,
+              284.0475
+            ],
+            "borderColor": "#2563eb",
+            "backgroundColor": "rgba(37, 99, 235, 0.2)",
+            "pointBackgroundColor": "#2563eb",
+            "pointRadius": 5
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "scales": {
+          "r": {
+            "beginAtZero": true
+          }
+        }
+      }
+    },
+    "seasonal_analysis": {
+      "type": "polarArea",
+      "title": "Seasonal Revenue Distribution",
+      "data": {
+        "labels": [
+          "Spring",
+          "Winter"
+        ],
+        "datasets": [
+          {
+            "data": [
+              5119.8,
+              30306.57
+            ],
+            "backgroundColor": [
+              "rgba(34, 197, 94, 0.7)",
+              "rgba(249, 115, 22, 0.7)",
+              "rgba(239, 68, 68, 0.7)",
+              "rgba(59, 130, 246, 0.7)"
+            ],
+            "borderWidth": 2,
+            "borderColor": "#ffffff"
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "plugins": {
+          "legend": {
+            "position": "bottom"
+          }
+        }
+      }
+    },
+    "customer_segments": {
+      "type": "doughnut",
+      "title": "Customer Value Segments",
+      "data": {
+        "labels": [
+          "High Value",
+          "Low Value",
+          "Medium Value"
+        ],
+        "datasets": [
+          {
+            "data": [
+              17,
+              18,
+              15
+            ],
+            "backgroundColor": [
+              "#ef4444",
+              "#f97316",
+              "#10b981"
+            ],
+            "borderWidth": 2,
+            "borderColor": "#ffffff"
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "plugins": {
+          "legend": {
+            "position": "bottom"
+          }
+        }
+      }
+    },
+    "gender_analysis": {
+      "type": "bar",
+      "title": "Revenue by Gender",
+      "data": {
+        "labels": [
+          "Female",
+          "Male"
+        ],
+        "datasets": [
+          {
+            "label": "Total Revenue",
+            "data": [
+              15597.19,
+              19829.18
+            ],
+            "backgroundColor": [
+              "#8b5cf6",
+              "#ec4899"
+            ],
+            "borderWidth": 1
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "indexAxis": "y"
+      }
+    },
+    "category_performance": {
+      "type": "bar",
+      "title": "Product Category Performance",
+      "data": {
+        "labels": [
+          "Beauty",
+          "Clothing",
+          "Electronics",
+          "Home & Garden",
+          "Sports"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue",
+            "data": [
+              1459.61,
+              3187.66,
+              19799.71,
+              4149.73,
+              6829.66
+            ],
+            "backgroundColor": [
+              "#2563eb",
+              "#10b981",
+              "#f97316",
+              "#8b5cf6",
+              "#ef4444",
+              "#06b6d4"
+            ],
+            "borderWidth": 1
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "scales": {
+          "y": {
+            "beginAtZero": true
+          }
+        }
+      }
+    },
+    "market_share": {
+      "type": "pie",
+      "title": "Market Share by Category",
+      "data": {
+        "labels": [
+          "Beauty",
+          "Clothing",
+          "Electronics",
+          "Home & Garden",
+          "Sports"
+        ],
+        "datasets": [
+          {
+            "data": [
+              4.12,
+              9.0,
+              55.89,
+              11.71,
+              19.28
+            ],
+            "backgroundColor": [
+              "#2563eb",
+              "#10b981",
+              "#f97316",
+              "#8b5cf6",
+              "#ef4444",
+              "#06b6d4"
+            ],
+            "borderWidth": 2,
+            "borderColor": "#ffffff"
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "plugins": {
+          "legend": {
+            "position": "right"
+          },
+          "tooltip": {
+            "callbacks": {
+              "label": "function(context) { return context.label + \": \" + context.parsed + \"%\"; }"
+            }
+          }
+        }
+      }
+    }
+  },
+  "kpis": [
+    {
+      "title": "Total Revenue",
+      "value": "$35,426.37",
+      "subtitle": "From 100 transactions",
+      "icon": "dollar-sign",
+      "color": "success"
+    },
+    {
+      "title": "Average Transaction",
+      "value": "$354.26",
+      "subtitle": "Median: $224.97",
+      "icon": "trending-up",
+      "color": "primary"
+    },
+    {
+      "title": "Total Customers",
+      "value": "50",
+      "subtitle": "94.0% retention rate",
+      "icon": "users",
+      "color": "info"
+    },
+    {
+      "title": "Customer Lifetime Value",
+      "value": "$708.53",
+      "subtitle": "Avg 2.0 transactions",
+      "icon": "heart",
+      "color": "warning"
+    },
+    {
+      "title": "Daily Revenue",
+      "value": "$694.63",
+      "subtitle": "Peak: $1,599.97",
+      "icon": "calendar",
+      "color": "secondary"
+    }
+  ],
+  "insights": [
+    {
+      "category": "Revenue",
+      "insight": "Average transaction value is $354.26 with high variability (std: $337.26)",
+      "recommendation": "Focus on increasing transaction consistency and targeting high-value customers",
+      "priority": "medium"
+    },
+    {
+      "category": "Products",
+      "insight": "Electronics is the most popular product category",
+      "recommendation": "Invest in expanding Electronics product lines and inventory",
+      "priority": "medium"
+    },
+    {
+      "category": "Customer Loyalty",
+      "insight": "High-value customers represent 34.0% of customer base but drive significant revenue",
+      "recommendation": "Implement VIP loyalty programs to retain high-value customers",
+      "priority": "high"
+    },
+    {
+      "category": "Revenue Stability",
+      "insight": "Daily revenue shows high volatility (CV: 54.9%)",
+      "recommendation": "Implement strategies to stabilize daily sales through promotions and inventory management",
+      "priority": "medium"
+    },
+    {
+      "category": "Weekly Patterns",
+      "insight": "Monday is the best performing day of the week",
+      "recommendation": "Schedule major promotions and new product launches on Mondays",
+      "priority": "medium"
+    },
+    {
+      "category": "Seasonality",
+      "insight": "Winter shows the highest sales performance",
+      "recommendation": "Increase inventory and marketing budget during Winter season",
+      "priority": "medium"
+    },
+    {
+      "category": "Customer Segmentation",
+      "insight": "High-value customers represent 34.0% of customer base",
+      "recommendation": "Focus on retaining and expanding high-value customer relationships",
+      "priority": "medium"
+    },
+    {
+      "category": "Product Portfolio",
+      "insight": "Electronics dominates with 55.9% market share",
+      "recommendation": "Diversify product portfolio to reduce dependency on single category",
+      "priority": "medium"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "total_records": 100,
+  "missing_values": {
+    "Transaction_ID": "0",
+    "Date": "0",
+    "Customer_ID": "0",
+    "Gender": "0",
+    "Age": "0",
+    "Product_Category": "0",
+    "Quantity": "0",
+    "Price_per_Unit": "0",
+    "Total_Amount": "0"
+  },
+  "duplicate_records": 0,
+  "date_format_errors": 0,
+  "negative_values": 0,
+  "data_types": {
+    "Transaction_ID": "int64",
+    "Date": "object",
+    "Customer_ID": "object",
+    "Gender": "object",
+    "Age": "int64",
+    "Product_Category": "object",
+    "Quantity": "int64",
+    "Price_per_Unit": "float64",
+    "Total_Amount": "float64"
+  }
+}

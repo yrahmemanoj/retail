@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Sales EDA Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@2.29.3/index.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <i class="fas fa-chart-line"></i>
+                    <h1>Retail Sales Analytics</h1>
+                </div>
+                <div class="header-actions">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="refresh-btn" id="refreshData">
+                        <i class="fas fa-sync-alt"></i>
+                        Refresh
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="dashboard-nav">
+            <div class="nav-content">
+                <button class="nav-item active" data-section="overview">
+                    <i class="fas fa-home"></i>
+                    <span>Overview</span>
+                </button>
+                <button class="nav-item" data-section="revenue">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Revenue</span>
+                </button>
+                <button class="nav-item" data-section="customers">
+                    <i class="fas fa-users"></i>
+                    <span>Customers</span>
+                </button>
+                <button class="nav-item" data-section="products">
+                    <i class="fas fa-box"></i>
+                    <span>Products</span>
+                </button>
+                <button class="nav-item" data-section="insights">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Insights</span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="dashboard-main">
+            <!-- Overview Section -->
+            <section id="overview" class="dashboard-section active">
+                <div class="section-header">
+                    <h2>Business Overview</h2>
+                    <p>Key metrics and performance indicators</p>
+                </div>
+
+                <!-- KPI Cards -->
+                <div class="kpi-grid" id="kpiGrid">
+                    <!-- KPI cards will be dynamically generated -->
+                </div>
+
+                <!-- Quick Charts Grid -->
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Daily Revenue Trend</h3>
+                            <div class="chart-actions">
+                                <button class="chart-action" title="Download">
+                                    <i class="fas fa-download"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="overviewRevenueChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Customer Segments</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="overviewCustomerChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Product Performance</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="overviewProductChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Weekly Patterns</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="overviewWeeklyChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Revenue Section -->
+            <section id="revenue" class="dashboard-section">
+                <div class="section-header">
+                    <h2>Revenue Analysis</h2>
+                    <p>Comprehensive revenue performance and trends</p>
+                </div>
+
+                <div class="charts-grid">
+                    <div class="chart-card full-width">
+                        <div class="chart-header">
+                            <h3>Revenue Timeline</h3>
+                            <div class="chart-filters">
+                                <select id="revenueTimeframe">
+                                    <option value="daily">Daily</option>
+                                    <option value="weekly">Weekly</option>
+                                    <option value="monthly">Monthly</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="chart-container large">
+                            <canvas id="revenueTimelineChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Seasonal Revenue</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="seasonalRevenueChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Revenue Distribution</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="revenueDistributionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Revenue Insights -->
+                <div class="insights-panel">
+                    <h3>Revenue Insights</h3>
+                    <div class="insights-grid" id="revenueInsights">
+                        <!-- Dynamic insights will be loaded here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Customers Section -->
+            <section id="customers" class="dashboard-section">
+                <div class="section-header">
+                    <h2>Customer Analysis</h2>
+                    <p>Customer behavior and segmentation insights</p>
+                </div>
+
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Customer Value Segments</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="customerSegmentsChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Demographics</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="customerDemographicsChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Purchase Behavior</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="purchaseBehaviorChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Customer Lifetime Value</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="clv Chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Top Customers Table -->
+                <div class="data-table-card">
+                    <div class="table-header">
+                        <h3>Top Customers</h3>
+                        <div class="table-actions">
+                            <button class="btn-secondary">
+                                <i class="fas fa-download"></i>
+                                Export
+                            </button>
+                        </div>
+                    </div>
+                    <div class="table-container">
+                        <table id="topCustomersTable">
+                            <thead>
+                                <tr>
+                                    <th>Customer ID</th>
+                                    <th>Total Spent</th>
+                                    <th>Transactions</th>
+                                    <th>Avg Transaction</th>
+                                    <th>Segment</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Dynamic content -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Products Section -->
+            <section id="products" class="dashboard-section">
+                <div class="section-header">
+                    <h2>Product Analysis</h2>
+                    <p>Product performance and category insights</p>
+                </div>
+
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Category Performance</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="categoryPerformanceChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Market Share</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="marketShareChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Price Analysis</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="priceAnalysisChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Cross-selling Opportunities</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="crossSellingChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Insights Section -->
+            <section id="insights" class="dashboard-section">
+                <div class="section-header">
+                    <h2>Business Insights & Recommendations</h2>
+                    <p>AI-powered insights and actionable recommendations</p>
+                </div>
+
+                <!-- Insights Categories -->
+                <div class="insights-categories">
+                    <button class="insight-category active" data-category="all">
+                        <i class="fas fa-globe"></i>
+                        All Insights
+                    </button>
+                    <button class="insight-category" data-category="revenue">
+                        <i class="fas fa-chart-line"></i>
+                        Revenue
+                    </button>
+                    <button class="insight-category" data-category="customers">
+                        <i class="fas fa-users"></i>
+                        Customers
+                    </button>
+                    <button class="insight-category" data-category="products">
+                        <i class="fas fa-box"></i>
+                        Products
+                    </button>
+                    <button class="insight-category" data-category="operations">
+                        <i class="fas fa-cogs"></i>
+                        Operations
+                    </button>
+                </div>
+
+                <!-- Insights Grid -->
+                <div class="insights-main-grid" id="insightsMainGrid">
+                    <!-- Dynamic insights will be loaded here -->
+                </div>
+
+                <!-- Action Plan -->
+                <div class="action-plan-section">
+                    <h3>Recommended Action Plan</h3>
+                    <div class="action-timeline">
+                        <div class="timeline-section">
+                            <div class="timeline-header">
+                                <i class="fas fa-bolt"></i>
+                                <h4>Immediate Actions (1 Month)</h4>
+                            </div>
+                            <div class="timeline-items" id="immediateActions">
+                                <!-- Dynamic content -->
+                            </div>
+                        </div>
+
+                        <div class="timeline-section">
+                            <div class="timeline-header">
+                                <i class="fas fa-calendar-alt"></i>
+                                <h4>Short-term Goals (2-6 Months)</h4>
+                            </div>
+                            <div class="timeline-items" id="shortTermGoals">
+                                <!-- Dynamic content -->
+                            </div>
+                        </div>
+
+                        <div class="timeline-section">
+                            <div class="timeline-header">
+                                <i class="fas fa-rocket"></i>
+                                <h4>Long-term Strategy (6+ Months)</h4>
+                            </div>
+                            <div class="timeline-items" id="longTermStrategy">
+                                <!-- Dynamic content -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Loading Overlay -->
+        <div class="loading-overlay" id="loadingOverlay">
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+                <p>Loading analytics data...</p>
+            </div>
+        </div>
+
+        <!-- Error Modal -->
+        <div class="modal" id="errorModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Error Loading Data</h3>
+                    <button class="modal-close" id="closeErrorModal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="errorMessage">Unable to load analytics data. Please ensure the EDA analysis has been completed.</p>
+                    <div class="modal-actions">
+                        <button class="btn-primary" id="runAnalysisBtn">
+                            <i class="fas fa-play"></i>
+                            Run Analysis
+                        </button>
+                        <button class="btn-secondary" id="retryLoadBtn">
+                            <i class="fas fa-refresh"></i>
+                            Retry
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
